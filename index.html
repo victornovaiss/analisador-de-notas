@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu analizador de notas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+        <h1>Analisador</h1>
+  </header>
+  <section>
+        <div>
+           <p>Nota 1º unidade: <input type="number" name="txtn1" id="txtn1"></p> 
+           <p>Nota 2º unidade: <input type="number" name="txtn2" id="txtn2"></p>
+           <p>Nota 3º unidade: <input type="number" name="txtn3" id="txtn3"></p>
+           <p>Nota 4º unidade: <input type="number" name="txtn4" id="txtn4"></p>
+           <input type="button" value="Adicionar Valores" onclick="adcnotas()"><br>
+        </div>
+        <div id="resu"> 
+          <p>Insira as notas obtidas até o momento.</p>
+          <p>Unidades que não tem a nota, insira o valor 0.</p>
+        </div>
+  </section>  
+  <footer>
+       <p>&copy; Victor Novais </p> 
+  </footer>
+  <script src="scrip.js"></script>
+</body>
+</html>
