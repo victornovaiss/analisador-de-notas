@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(35, 136, 170);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+} 
+
+.divs{
+    max-width: 200px;
+    padding: 30px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.39) 6px 6px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.inputs{
+    font-family: 'Nunito', sans-serif;
+    border-radius: 20px;
+}
+
+.botao{
+    font-family: 'Nunito', sans-serif;
+    border-radius: 20px;
+    background-color: turquoise;
+    
+}
+
+footer{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+}

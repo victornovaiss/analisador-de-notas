@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu analizador de notas</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <h1>Analisador de notas</h1>
-  <div id="entrada">
-    <p>Números de períodos da sua escola: <input type="number" name="" id="periodos"></p> 
-    <p>Média da sua escola: <input type="number" name="media" id="mediaEscolar"></p>
-    <input type="button" value="Confirmar" onclick="createInputNote()">
+  <div id="entrada" class="divs">
+    <p>Números de períodos da sua escola: <input type="number" name="" id="periodos" class="inputs"></p> 
+    <p>Média da sua escola: <input type="number" name="media" id="mediaEscolar" class="inputs"></p>
+    <input type="button" value="Confirmar" onclick="createInputNote()" class="botao">
 
   </div>
   <div id="processo">
